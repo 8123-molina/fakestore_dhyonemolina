@@ -104,7 +104,7 @@ class _HomePageState extends State<HomePage> {
         _productController.getProduct();
       },
       child: SizedBox(
-        height: screenSize.height,
+        height: screenSize.height * 0.8,
         child: AnimatedBuilder(
           animation: Listenable.merge([
             _productController.isLoading,
